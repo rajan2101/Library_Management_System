@@ -27,3 +27,18 @@ Framework: Hibernate 5.6.x (ORM)
 Database: MySQL 8.0
 Build Tool: Maven
 Environment: Eclipse IDE
+
+## LMS Project Directory Hierarchy:
+LibraryManagementSystem/
+├── pom.xml                        # Maven dependencies (Hibernate, MySQL)
+└── src/
+    ├── main/
+    │   ├── java/                  # All your Java packages
+    │   │   └── com/
+    │   │       └── lms/
+    │   │           ├── app/       # Main execution class (LMSApp.java)
+    │   │           ├── config/    # Hibernate configuration (HibernateUtil.java)
+    │   │           ├── dao/       # Data Access Objects (GeneralDao.java)
+    │   │           └── model/     # Entity classes (Book, Member, Publisher)
+    │   └── resources/             # Empty (since you're not using XML config)
+    └── test/                      # Optional: For unit testing your logic
