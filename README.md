@@ -29,7 +29,7 @@ Build Tool: Maven
 Environment: Eclipse IDE
 
 ## LMS Project Directory Hierarchy:
-LibraryManagementSystem/
+```LibraryManagementSystem/
 ├── pom.xml                        # Maven dependencies (Hibernate, MySQL)
 └── src/
     ├── main/
@@ -42,3 +42,4 @@ LibraryManagementSystem/
     │   │           └── model/     # Entity classes (Book, Member, Publisher)
     │   └── resources/             # Empty (since you're not using XML config)
     └── test/                      # Optional: For unit testing your logic
+```
